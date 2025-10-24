@@ -17,7 +17,30 @@
             height: 100px;
             justify-content: center;
             align-items: center;
+            text-align: center;
             color: white;
+        }
+
+        .colunas
+        {
+            width: 300px;
+            border: 1px solid black;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .c1
+        {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px;
+        }
+
+        .c2
+        {
+            padding: 100px;
         }
     </style>
 </head>
@@ -27,6 +50,17 @@
         <h1>Exercício 4</h1>
         <p>Posicionamento de elementos com FlexBox</p>
     </div>
+
+    <div class="c1">
+        <div class="colunas">
+            <img src="São Paulo.jpg" alt="São Paulo">
+            <div class="c2"></div>
+              <h3>Estado de São Paulo</h3>
+              <p>É os estado mais populoso do país.</p>
+        </div>
+    </div>
+
+    
 
 </body>
 </html>
